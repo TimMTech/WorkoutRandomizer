@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Dongle', sans-serif;
+}
+
+#header {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#container-one {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+}
+
+#container-one > :nth-child(n) {
+    border: 0.2rem solid black;
+    font-size: 2rem;
+    width: 15rem;
+    height: 20rem;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.mon,
+.tue,
+.wed {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#container-two {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#container-two > :nth-child(n) {
+    border: 0.2rem solid black;
+    font-size: 2rem;
+    width: 15rem;
+    height: 20rem;
+    text-align: center;  
+    border-radius: 2rem;
+}
+
+.thur,
+.fri,
+.sat {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#container-three {
+    display: flex;
+    justify-content: center;
+}
+
+#container-three > :nth-child(n) {
+    border: 0.2rem solid black;
+    font-size: 2rem;
+    width: 15rem;
+    height: 20rem;
+    text-align: center;
+    margin: 2rem 0;
+    border-radius: 2rem;
+}
+
+.sun {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.mon .mon-workout-list,
+.tue .tue-workout-list,
+.wed .wed-workout-list,
+.thur .thur-workout-list,
+.fri .fri-workout-list,
+.sat .sat-workout-list,
+.sun .sun-workout-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-top-style: solid;
+    font-size: 1.5rem;
+    text-align: start;
+    overflow: scroll;
+    padding: 1rem 1rem;
+}
+
+li {
+    list-style: none;
+}
+
+.mon-workout-list > .mon-chest,
+.mon-workout-list > .mon-biceps {
+    border: 0.1rem solid black;
+    height: 6rem;
+    overflow: scroll;
+}
+
+
+.wed-workout-list > .wed-back,
+.wed-workout-list > .wed-triceps,
+.wed-workout-list > .wed-abs {
+    border: 0.1rem solid black;
+    height: 6rem;
+    overflow: scroll;
+}
+
+.fri-workout-list > .fri-shoulders,
+.fri-workout-list > .fri-traps {
+    border: 0.1rem solid black;
+    height: 6rem;
+    overflow: scroll;
+}
+
+.sat-workout-list > .sat-legs,
+.sat-workout-list > .sat-calves,
+.sat-workout-list > .sat-abs {
+    border: 0.1rem solid black;
+    height: 6rem;
+    overflow: scroll;
+}
+
+
+    
+
+
+
+
